@@ -41,7 +41,7 @@ const init = async () => {
     tags.appendChild(chip);
   });
 
-  title.innerHTML = `By : ${data.author}`;
+  title.innerHTML = data.author;
   quote.innerHTML = data.content;
 };
 
