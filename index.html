@@ -11,10 +11,17 @@
     <div class="window">
       <div class="title-bar">
         <div class="title">Welcome</div>
-        <div class="buttons"></div>
+        <div class="buttons">
+          <div style="--bg-color: #fdc700"></div>
+          <div style="--bg-color: #00d865"></div>
+          <div style="--bg-color: #ff4347"></div>
+        </div>
       </div>
       <div class="body">
         <div class="quote"></div>
+        <div class="quote-loader">
+          <div></div>
+        </div>
         <div class="tags"></div>
         <div class="controls">
           <!-- <div class="btn-copy"></div> -->
@@ -24,11 +31,18 @@
           <div class="btn-info">
             <img src="./assets/logos/info.svg" alt="information-icon" />
           </div>
-          <div class="btn-github">
-            <a href="https://github.com/aadilmughal786" target="_blank"
-              ><img src="./assets/logos/githib.svg" alt="github-icon"
-            /></a>
-          </div>
+          <a
+            class="btn-github"
+            href="https://github.com/aadilmughal786/random-quote-ajax"
+            target="_blank"
+          >
+            <img src="./assets/logos/githib.svg" alt="github-icon" />
+          </a>
+        </div>
+        <div class="details hide">
+          <div class="created-date"></div>
+          <div class="modify-date"></div>
+          <div class="quote-length"></div>
         </div>
       </div>
     </div>
