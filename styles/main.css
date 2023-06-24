@@ -83,7 +83,7 @@ body {
 }
 
 .spin {
-  animation: loader 3s linear infinite;
+  animation: loader 3s ease-in-out infinite alternate;
 }
 
 @keyframes loader {

@@ -97,15 +97,19 @@ infoButton.addEventListener("click", () => {
 });
 
 copyButton.addEventListener("click", () => {
-  navigator.clipboard
-    .writeText(quote.innerHTML)
-    .then(() => {
-      alert("Quote copied to clipboard");
-    })
-    .catch((error) => {
-      console.error("Failed to copy quote:", error);
-      alert("Error copying quote to clipboard");
-    });
+  if (quoteId) {
+    navigator.clipboard
+      .writeText(quote.innerHTML)
+      .then(() => {
+        alert("Quote copied to clipboard");
+      })
+      .catch((error) => {
+        console.error("Failed to copy quote:", error);
+        alert("Error copying quote to clipboard");
+      });
+  } else {
+    alert("No quote found");
+  }
 });
 
 shareButton.addEventListener("click", () => {
