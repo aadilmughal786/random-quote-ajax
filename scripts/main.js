@@ -111,7 +111,7 @@ copyButton.addEventListener("click", () => {
 shareButton.addEventListener("click", () => {
   if (quoteId) {
     navigator.clipboard
-      .writeText(`${window.location.origin}/?id=${quoteId}`)
+      .writeText(`${window.location.href}?id=${quoteId}`)
       .then(() => {
         alert("Link copied to clipboard");
       })
