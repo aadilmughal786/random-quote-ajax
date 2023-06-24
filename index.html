@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quote App AJAX</title>
+    <link rel="icon" href="./assets/logos/favicon.png" type="image/png" />
+    <title>Quotes AJAX</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <div class="window">
       <div class="title-bar">
+        <img class="app-logo" src="./assets/logos/favicon.png" />
         <div class="title">Welcome</div>
         <div class="buttons">
           <div style="--bg-color: #fdc700"></div>
@@ -23,6 +25,13 @@
           <div></div>
         </div>
         <div class="tags"></div>
+        <div class="details-wrapper">
+          <div class="details">
+            <div class="created-date"></div>
+            <div class="modify-date"></div>
+            <div class="quote-length"></div>
+          </div>
+        </div>
         <div class="controls">
           <!-- <div class="btn-copy"></div> -->
           <div class="btn-refresh">
@@ -36,15 +45,17 @@
             href="https://github.com/aadilmughal786/random-quote-ajax"
             target="_blank"
           >
-            <img src="./assets/logos/githib.svg" alt="github-icon" />
+            <img src="./assets/logos/github.svg" alt="github-icon" />
           </a>
         </div>
-        <div class="details hide">
-          <div class="created-date"></div>
-          <div class="modify-date"></div>
-          <div class="quote-length"></div>
-        </div>
       </div>
+    </div>
+
+    <div class="dev">
+      Developed By
+      <a href="https://github.com/aadilmughal786" target="_blank"
+        >Aadil Mugal</a
+      >
     </div>
 
     <script type="module" src="./scripts/main.js"></script>

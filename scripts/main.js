@@ -4,7 +4,7 @@ const url = "https://api.quotable.io/random";
 
 const refreshButton = document.getElementsByClassName("btn-refresh")[0];
 const infoButton = document.getElementsByClassName("btn-info")[0];
-const details = document.getElementsByClassName("details")[0];
+const detailsWrapper = document.getElementsByClassName("details-wrapper")[0];
 
 const fetchQuote = async () => {
   const response = await fetch(url);
@@ -26,11 +26,13 @@ const init = async () => {
   loader.style.display = "flex";
 
   const data = await fetchQuote();
+
+  console.log(data);
   quote.style.display = "flex";
   loader.style.display = "none";
 
-  createddate.innerText = `Created data : ${data?.dateAdded}`;
-  modifyDate.innerText = `Modified data : ${data?.dateModified}`;
+  createddate.innerText = `Created date : ${data?.dateAdded}`;
+  modifyDate.innerText = `Modified date : ${data?.dateModified}`;
   quoteLength.innerText = `Length data : ${data?.length}`;
 
   tags.innerHTML = "";
@@ -47,7 +49,7 @@ const init = async () => {
 
 refreshButton.addEventListener("click", init);
 infoButton.addEventListener("click", () => {
-  details.classList.toggle("hide");
+  detailsWrapper.classList.toggle("open");
 });
 
 init();
