@@ -1,0 +1,32 @@
+Open Spurce Initiative Approved License
+Copyright <2023> <https://github.com/aadilmughal786>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the “Software”), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+इस सॉफ़्टवेयर की प्रति प्राप्त करने वाले किसी भी व्यक्ति को इसके द्वारा निःशुल्क अनुमति प्रदान की जाती है
+बिना किसी प्रतिबंध के सॉफ़्टवेयर से निपटने के लिए संबंधित दस्तावेज़ फ़ाइलें ("सॉफ़्टवेयर") शामिल हैं
+बिना किसी सीमा के उपयोग करने, प्रतिलिपि बनाने, संशोधित करने, विलय करने, प्रकाशित करने, वितरित करने, उपलाइसेंस देने और/या बेचने के अधिकार
+सॉफ़्टवेयर की प्रतियां, और जिन व्यक्तियों को सॉफ़्टवेयर प्रदान किया गया है, उन्हें ऐसा करने की अनुमति देना, इसके अधीन है
+निम्नलिखित शर्तें:
+
+उपरोक्त कॉपीराइट नोटिस और यह अनुमति नोटिस सभी प्रतियों या पर्याप्त में शामिल किया जाएगा
+सॉफ़्टवेयर के अंश.
+
+सॉफ़्टवेयर "जैसा है" प्रदान किया जाता है, किसी भी प्रकार की वारंटी के बिना, व्यक्त या निहित, जिसमें शामिल है लेकिन नहीं
+व्यापारिकता, किसी विशेष उद्देश्य के लिए उपयुक्तता और गैर-उल्लंघन की वारंटी तक सीमित। नहीं में
+इवेंट के लेखक या कॉपीराइट धारक किसी भी दावे, क्षति या अन्य दायित्व के लिए उत्तरदायी होंगे,
+चाहे किसी अनुबंध, अपकृत्य या अन्यथा की कार्रवाई में, उससे उत्पन्न, उससे उत्पन्न या उसके संबंध में
+सॉफ़्टवेयर या सॉफ़्टवेयर में उपयोग या अन्य व्यवहार।
