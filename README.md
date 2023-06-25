@@ -1,6 +1,6 @@
 # random-quote-ajax
 
-![Normal view]("./assets/app-images/normal.png")
-![Invalid view]("./assets/app-images/invalid.png")
-![Offline view]("./assets/app-images/offline.png")
-![Detailed view]("./assets/app-images/deatils.png")
+<img src="./assets/app-images/normal.png">
+<img src="./assets/app-images/invalid.png">
+<img src="./assets/app-images/offline.png">
+<img src="./assets/app-images/deatils.png">
