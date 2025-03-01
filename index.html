@@ -2,16 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/icons/logo.svg" />
-    <title>Quotes AJAX</title>
+    <meta name="description" content="A web application that displays random inspirational quotes from Quotable API" />
+    <meta name="author" content="https://github.com/aadilmughal786" />
+    <meta name="keywords" content="quotes, inspirational, random quotes, quotable api" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Random Quote Generator" />
+    <meta property="og:description" content="A web application that displays random inspirational quotes from Quotable API" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/logo.svg" />
+    <link rel="apple-touch-icon" href="./assets/icons/logo.svg" />
+    <title>Random Quote Generator | Daily Inspiration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://api.quotable.io" />
   </head>
   <body>
     <div class="window">
       <div class="title-bar">
-        <img class="app-logo" src="./assets/icons/logo.svg" />
+        <img class="app-logo" src="./assets/icons/logo.svg" alt="app-logo" />
         <div class="title">Welcome</div>
         <div class="buttons">
           <div style="--bg-color: #fdc700"></div>
@@ -33,7 +44,6 @@
           </div>
         </div>
         <div class="controls">
-          <!-- <div class="btn-copy"></div> -->
           <div>
             <div class="btn-info">
               <img src="./assets/icons/info.svg" alt="information-icon" />
@@ -42,6 +52,7 @@
               class="btn-github"
               href="https://github.com/aadilmughal786/random-quote-ajax"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src="./assets/icons/github.svg" alt="github-icon" />
             </a>
@@ -65,9 +76,9 @@
 
     <div class="dev">
       Developed By
-      <a href="https://github.com/aadilmughal786" target="_blank"
-        >Aadil Mugal</a
-      >
+      <a href="https://github.com/aadilmughal786" target="_blank" rel="noopener noreferrer">
+        Aadil Mugal
+      </a>
     </div>
 
     <script type="module" src="./scripts/main.js"></script>
