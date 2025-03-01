@@ -54,7 +54,7 @@ const renderTags = (tagsContainer, data = []) => {
 const renderData = (data) => {
   if (!data) return;
   
-  const { content, author = "Unknown", tags = [], dateAdded, dateModified, length } = data;
+  const { content, author = "Aadil Mughal Says", tags = [], dateAdded, dateModified, length } = data;
   
   if (DOM.quoteText) DOM.quoteText.innerHTML = content;
   if (DOM.quoteTitle) DOM.quoteTitle.innerText = author;
@@ -98,7 +98,7 @@ const getData = async () => {
     return {
       _id: 'offline',
       content: "You are offline",
-      author: "System",
+      author: "Aadil Mughal Says",
       tags: ["offline"],
       dateAdded: new Date().toISOString(),
       dateModified: new Date().toISOString(),
